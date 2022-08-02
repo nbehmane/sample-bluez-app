@@ -6,7 +6,7 @@
 - Bluez-5.64-2
 - dbus
 - gio-2.0
-- glib
+- glib-2.0
 
 ## Development Dependencies
 - Bluez-utils
