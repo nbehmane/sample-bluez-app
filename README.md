@@ -1,5 +1,6 @@
-# tuxdrop
-Tuxdrop is a wireless file transfer module that utilizes bluetooth.
+# tuxdrop v.1
+- Tuxdrop is a wireless file transfer module that utilizes bluetooth. This is a preview verison of the application.
+- The full release will be at github.com/nbehmane/tuxdrop [private for now].
 ## Dependencies
 - Bluez-5.64-2
 - dbus
