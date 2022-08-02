@@ -9,6 +9,9 @@ Tuxdrop is a wireless file transfer module that utilizes bluetooth.
 ## Development Dependencies
 - Bluez-utils
 
+## Generate docs.
+- make docs
+
 ## How to use.
 - modprobe btusb
 - systemctl start bluetooth
