@@ -249,13 +249,19 @@ int app_main()
    #if CLI 
    int c = 0;
    signal(SIGINT, sig_handler);
+
+   if (argc == 1)
+   {
+      usage();
+      return -1;
+   }
+
    while (1)
    {
       int option_index = 0;
       c = getopt_long(argc, argv, "hs:elpcdrq", long_options, &option_index);
       if (c == -1)
       {
-         usage();
          break;
       }
 
