@@ -7,8 +7,6 @@ build:
 test:
 	gcc $(FLAGS) -lcurses test.c -o test
 
-
-
 blue:
 	modprobe btusb
 	systemctl start bluetooth

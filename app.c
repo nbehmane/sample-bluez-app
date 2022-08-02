@@ -254,7 +254,11 @@ int app_main()
       int option_index = 0;
       c = getopt_long(argc, argv, "hs:elpcdrq", long_options, &option_index);
       if (c == -1)
+      {
+         usage();
          break;
+      }
+
       switch (c)
       {
          case 'h':
@@ -285,6 +289,7 @@ int app_main()
          case 'q':
             return -1;
          default:
+            usage();
             break;
       }
    }
@@ -319,6 +324,7 @@ int app_main()
          case 'q':
             return -1;
          default:
+            usage();
             break;
       }
    }
