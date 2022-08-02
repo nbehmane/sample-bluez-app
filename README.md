@@ -11,6 +11,14 @@
 ## Development Dependencies
 - Bluez-utils
 
+## Features
+- BLE Scanning and Connecting
+
+## Features Under Development
+- Obex Implementation.
+- Curses GUI.
+- Asynchronous event driven framework.
+
 ## Generate docs.
 - make docs
 
