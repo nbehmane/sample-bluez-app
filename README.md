@@ -1,7 +1,7 @@
-# tuxdrop v.1
-- Tuxdrop is a wireless file transfer module that utilizes bluetooth. This is a preview verison of the application.
-- The full release will be at github.com/nbehmane/tuxdrop [private for now].
-- This project is under heavy development, so program structure may change drastically later.
+# Sample BlueZ Application
+- An example project for using BlueZ to create Bluetooth applications using GLib's DBus bindings.
+- This is a snapshot of development for a different project.
+
 ## Dependencies
 - Bluez-5.64-2
 - dbus
@@ -15,7 +15,6 @@
 - BLE Scanning and Connecting
 
 ## Features Under Development
-- Obex Implementation.
 - Curses GUI.
 - Asynchronous event driven framework.
 
