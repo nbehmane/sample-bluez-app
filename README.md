@@ -16,7 +16,6 @@
 
 ## Features Under Development
 - Curses GUI.
-- Asynchronous event driven framework.
 
 ## Generate docs.
 - make docs
